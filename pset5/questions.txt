@@ -1,0 +1,22 @@
+0.  A word refering to a disease caused by inhaling very fine or small particles of sand or silica dust.
+1.  getrusage returns resource usage measure for who in this case RUSAGE_SELF.
+2.  there are sixteen(16) members.
+3.  passing before and after to calculate would create a copy of both before and after on the stack which
+    might lead to stackoverflow.
+4.  fgetc reads character by character until the end of file from a file fp, were alphabetical characters and
+    apostrophes are appended to the variable (an array of charf) word. The counter; words, for a new is increased when
+    a new word is found. There are conditions that ensures that words longer than a real word are ignored. next the word
+    is passed into check where a situation in which check returns true (in this case false) means such a word is mispelt 
+    and is printed out.
+5.  using fscanf, we would not be able to check for words that has non alphabetical characters or contains numbers.
+6.  declaring a parameter as const makes them less prone to changes or rather makes it impossible to change dictionary.
+7.  I used a trie data structure. it is a sort of a tree data structure where each parent node contains branch or rather
+    points to other children node. although a node might point to null where it means the end of a branch. going down a branch
+    means following a part that is made up of each character of a word base on the index of such character on the english 
+    alphabet; 'a' being 0. the end of a world is indicated by boolean value true.
+8.  it was 0.16s late (My code was 0.10 behind the staff own implimentation)
+9.  To create a new node on the trie, I created a function that would be called to create a node. But by 
+    allocating memory using calloc without calling a custom function for thesame purpose i was able to save time
+    on the whole process.
+10. in order to unload the dictionary, I had to create a custom function for that which is actually increasing runtime.
+    I am unable to unload directly.

@@ -1,0 +1,19 @@
+0.  BMP, GIF, JPEG AND PNG supports 16 million, 256, 16.7 million and 256 teracolors respectively.
+1.  GIF
+2.  data are lost during loosy compression while none is lost in lossless compression.
+3.  JPEG is lossy compressed
+4.  The file metadata pointing to the file is rewriten leaving the file intact. 
+5.  By overwriting the drive data with other data so that information cannot to recovered.
+6.  Is a header file that provides a set of typedef to define specific integer types.
+7.  to specify exact integer types.
+8.  1 byte, 4 byte, 4 byte, 2 bytes
+9.  In ASCII its B and M, decimal 66 and 77, hexadecimal 0x42 and 0x4d.
+10. bfsize specifies the size of the whole bitmap file while bisize the number of structure bytes.
+11. it means the pixel (bitmap) is left to right top to bottom.
+12. biBitCount specifies the color depth of a bitmap.
+13. could not create the file.
+14. you where reading a single block of memory in this case which might be equivalent to one pixel.
+15. padding would have the value of 3 bytes
+16. fseek moves the file position of the streem to a different point in the file.
+17. SEEK_CUR moves the file position of the streem to an offset relative to the current position.
+18. Mr. Boddy
